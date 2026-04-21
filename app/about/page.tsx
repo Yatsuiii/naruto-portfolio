@@ -4,7 +4,7 @@ import VillageHUD from "@/components/VillageHUD";
 const skills = [
   { name: "Python", level: 90, kanji: "火", element: "Fire" },
   { name: "Rust", level: 70, kanji: "雷", element: "Lightning" },
-  { name: "Hadoop / Hive", level: 75, kanji: "土", element: "Earth" },
+  { name: "LangChain / RAG", level: 75, kanji: "土", element: "Earth" },
   { name: "AI / ML", level: 80, kanji: "風", element: "Wind" },
   { name: "Systems Design", level: 75, kanji: "水", element: "Water" },
 ];
