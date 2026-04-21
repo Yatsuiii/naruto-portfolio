@@ -20,7 +20,7 @@ export const missions: Mission[] = [
       "Support a small data team by cleaning event data, building dashboards, and prototyping simple models that help the business pick better prices and campaigns.",
     outcome:
       "Shipped a set of Python notebooks + SQL queries that the team used weekly, plus a lightweight dashboard that surfaced top under‑performing SKUs and campaigns.",
-    tags: ["Internship", "Python", "SQL", "LangChain", "RAG"],
+    tags: ["Internship", "Python", "TypeScript"],
   },
   {
     rank: "B",
