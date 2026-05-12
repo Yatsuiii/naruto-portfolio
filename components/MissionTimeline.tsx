@@ -232,7 +232,7 @@ export default function MissionTimeline({ missions }: { missions: Mission[] }) {
     <section
       ref={sectionRef}
       id="experience"
-      className="relative min-h-screen py-20 md:py-28 overflow-hidden"
+      className="relative min-h-screen pb-20 md:pb-28 overflow-hidden"
     >
       {/* Background image */}
       <div className="absolute inset-0 z-0">
