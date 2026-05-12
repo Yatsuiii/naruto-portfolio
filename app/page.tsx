@@ -120,9 +120,9 @@ export default function Home() {
       <section className="relative py-14 md:py-18">
         <div className="max-w-6xl mx-auto px-6 md:px-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <Link href="/projects" className="group">
+            <Link href="/projects" className="group block h-full">
               <div
-                className="p-6 md:p-7 transition-transform duration-300 group-hover:-translate-y-1"
+                className="h-full p-6 md:p-7 transition-transform duration-300 group-hover:-translate-y-1"
                 style={{
                   background: "rgba(255,255,255,0.03)",
                   border: "1px solid rgba(255,255,255,0.07)",
@@ -139,9 +139,9 @@ export default function Home() {
               </div>
             </Link>
 
-            <Link href="/experience" className="group">
+            <Link href="/experience" className="group block h-full">
               <div
-                className="p-6 md:p-7 transition-transform duration-300 group-hover:-translate-y-1"
+                className="h-full p-6 md:p-7 transition-transform duration-300 group-hover:-translate-y-1"
                 style={{
                   background: "rgba(255,255,255,0.03)",
                   border: "1px solid rgba(255,255,255,0.07)",
@@ -158,9 +158,9 @@ export default function Home() {
               </div>
             </Link>
 
-            <Link href="/about" className="group">
+            <Link href="/about" className="group block h-full">
               <div
-                className="p-6 md:p-7 transition-transform duration-300 group-hover:-translate-y-1"
+                className="h-full p-6 md:p-7 transition-transform duration-300 group-hover:-translate-y-1"
                 style={{
                   background: "rgba(255,255,255,0.03)",
                   border: "1px solid rgba(255,255,255,0.07)",
