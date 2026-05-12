@@ -12,26 +12,26 @@ export interface Mission {
 export const missions: Mission[] = [
   {
     rank: "A",
-    title: "Software Dev Intern — Pricing Analytics Squad",
-    role: "Software Dev Intern",
-    organization: "E‑commerce Startup (Internship)",
+    title: "Software Development Intern",
+    role: "Software Development Intern",
+    organization: "Devyutt Softeck Ltd., Jaipur, India",
     period: "March 2025 — July 2025",
     objective:
-      "Support a small data team by cleaning event data, building dashboards, and prototyping simple models that help the business pick better prices and campaigns.",
+      "Build the backend for a client dashboard and reporting module — handle data aggregation, business logic, and end-to-end delivery from schema design to deployment.",
     outcome:
-      "Shipped a set of Python notebooks + SQL queries that the team used weekly, plus a lightweight dashboard that surfaced top under‑performing SKUs and campaigns.",
-    tags: ["Internship", "Python", "TypeScript"],
+      "Shipped REST API endpoints in FastAPI powering the dashboard and reports. Worked inside a project-based delivery model with version control, code reviews, and CI/CD pipelines.",
+    tags: ["FastAPI", "Python", "REST APIs", "CI/CD"],
   },
   {
     rank: "B",
-    title: "College Project Lead — ML Capstone Team",
-    role: "Team Lead / ML Engineer",
-    organization: "University Capstone",
-    period: "2024 — 2025",
+    title: "Technical Team Lead, Student Leadership",
+    role: "Technical Team Lead",
+    organization: "Manipal University Jaipur",
+    period: "June 2022 — August 2023",
     objective:
-      "Lead a 4‑person team building an ML capstone project: split work, keep everyone unblocked, and make sure the final demo is solid instead of last‑minute chaos.",
+      "Lead student teams delivering college-level software projects: coordinate task distribution, run technical reviews, and keep iterative delivery on track.",
     outcome:
-      "Ran weekly stand‑ups, set up GitHub workflows, reviewed PRs, and kept scope realistic — the team delivered on time with a working model, clean repo, and clear presentation.",
-    tags: ["Team Lead", "GitHub", "Agile-ish", "ML Project"],
+      "Led 3+ teams to delivery. Set up code review and Git workflows, mentored peers on Python and ML basics, and kept scope realistic so projects shipped on time with working demos.",
+    tags: ["Team Lead", "Mentorship", "GitHub", "Python"],
   },
 ];
