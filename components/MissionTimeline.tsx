@@ -257,39 +257,26 @@ export default function MissionTimeline({ missions }: { missions: Mission[] }) {
       />
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 md:px-12">
-        {/* Section header */}
+        {/* Rank legend */}
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6, ease }}
-          className="mb-14 md:mb-20"
+          transition={{ duration: 0.5, ease }}
+          className="flex items-center gap-4 mb-14 md:mb-20"
         >
-          <span className="text-xs font-bold uppercase tracking-[0.3em]" style={{ color: "#e87b35" }}>
-            経験記録 — EXPERIENCE LOG
-          </span>
-          <h2 className="text-impact text-3xl md:text-5xl text-white mt-2">
-            MISSION <span className="text-brush" style={{ color: "#e87b35" }}>Timeline</span>
-          </h2>
-          <p className="text-sm mt-3 max-w-lg" style={{ color: "rgba(255,255,255,0.4)" }}>
-            A shinobi is defined by the missions they complete. Each entry below is a real objective — ranked by complexity and impact.
-          </p>
-
-          {/* Rank legend */}
-          <div className="flex items-center gap-4 mt-5">
-            {(["S", "A", "B"] as const).map((r) => (
-              <div key={r} className="flex items-center gap-1.5">
-                <span
-                  className="text-[9px] font-black px-1.5 py-0.5"
-                  style={{ background: rankColor[r], color: r === "A" ? "#000" : "#fff" }}
-                >
-                  {r}
-                </span>
-                <span className="text-[9px] uppercase tracking-wider" style={{ color: "rgba(255,255,255,0.3)" }}>
-                  {r === "S" ? "Legendary" : r === "A" ? "High Impact" : "Standard"}
-                </span>
-              </div>
-            ))}
-          </div>
+          {(["S", "A", "B"] as const).map((r) => (
+            <div key={r} className="flex items-center gap-1.5">
+              <span
+                className="text-[9px] font-black px-1.5 py-0.5"
+                style={{ background: rankColor[r], color: r === "A" ? "#000" : "#fff" }}
+              >
+                {r}
+              </span>
+              <span className="text-[9px] uppercase tracking-wider" style={{ color: "rgba(255,255,255,0.3)" }}>
+                {r === "S" ? "Legendary" : r === "A" ? "High Impact" : "Standard"}
+              </span>
+            </div>
+          ))}
         </motion.div>
 
         {/* Timeline */}
