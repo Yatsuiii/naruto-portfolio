@@ -13,7 +13,7 @@ export const projects: Project[] = [
     description:
       "Adversarial GCN with Gradient Reversal Layer for cross-site ASD detection from resting-state fMRI. Mean AUC 0.7872 across 20 leave-one-site-out splits on 1,102 ABIDE subjects. Paired with a Qwen2.5-7B fine-tune for clinical report generation. Trained on AMD MI300X for the AMD Developer Hackathon 2026. Two models published on HuggingFace.",
     tags: ["PyTorch", "GCN", "LLM Fine-tuning", "Qwen2.5-7B", "HuggingFace", "AMD MI300X"],
-    link: "https://huggingface.co/Yatsuiii/brain-connect-gcn",
+    link: "https://github.com/Yatsuiii/Brain-Connectivity-GCN",
     rank: "S",
   },
   {
@@ -29,7 +29,7 @@ export const projects: Project[] = [
     description:
       "Production-grade Rust CLI that models multi-step API workflows as state machines in YAML, validates the full DAG before execution, and diffs traces across environments to surface root-cause divergence. Concurrent step execution, retry, circuit-break, A/B routing. Distributed via Homebrew, Docker (GHCR), and cross-platform binaries via GitHub Actions.",
     tags: ["Rust", "CLI", "State Machines", "CI/CD", "Open Source"],
-    link: "https://github.com/Yatsuiii/api--causality-engine",
+    link: "https://github.com/Yatsuiii/api-causality-engine",
     rank: "S",
   },
   {
@@ -49,11 +49,29 @@ export const projects: Project[] = [
     rank: "A",
   },
   {
-    title: "Shinobi Portfolio",
+    title: "Naruto Portfolio",
     description:
-      "This interactive portfolio — scroll-pinned HUD, horizontal timeline, 3D transforms, and scroll-velocity effects. Built with Next.js, Framer Motion, and Tailwind.",
+      "A themed developer portfolio with a mission-board information architecture, animated transitions, and custom Naruto-inspired UI components.",
     tags: ["Next.js", "TypeScript", "Framer Motion"],
     link: "https://github.com/Yatsuiii/naruto-portfolio",
+    rank: "B",
+  },
+  {
+    title: "Wraith — AI Voice Assistant",
+    description:
+      "A voice-enabled AI assistant with Google Calendar integration, Gmail, real-time weather, Wikipedia search, and app launching. Multi-functional productivity through voice and text.",
+    tags: ["Python", "AI", "Voice", "APIs"],
+    link: "https://github.com/Yatsuiii/Wraith---An-Ai-Chatbot-",
+    stars: 1,
+    rank: "B",
+  },
+  {
+    title: "Airline Delay Analysis",
+    description:
+      "Big data analysis on 120M+ flight records (1.6GB compressed) using Hadoop, Hive, and dimensional modeling to uncover delay patterns across carriers, airports, and time periods.",
+    tags: ["Python", "Hadoop", "Hive", "Big Data"],
+    link: "https://github.com/Yatsuiii/Airline-Analysis",
+    stars: 1,
     rank: "B",
   },
 ];
